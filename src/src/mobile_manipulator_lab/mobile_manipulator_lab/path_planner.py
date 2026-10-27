@@ -1,7 +1,7 @@
 import heapq
 import math
 
-# Lab layout: # = obstacle, . = free space
+
 GRID = [
     "..........",
     ".##.......",
