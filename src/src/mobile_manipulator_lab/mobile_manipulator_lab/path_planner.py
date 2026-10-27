@@ -95,7 +95,6 @@ def run_trial(route_name, goal, trial):
         print("Path distance: 0")
         return
 
-    # Simulated planned path: obstacles are excluded by A*.
     collisions = sum(not is_free(p) for p in path)
     distance = sum(
         math.dist(path[i], path[i + 1])
