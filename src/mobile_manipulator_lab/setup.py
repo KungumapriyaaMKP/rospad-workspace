@@ -8,7 +8,8 @@ setup(
     packages=[package_name],
     install_requires=['setuptools'],
     entry_points={
-        'console_scripts': ['path_planner = mobile_manipulator_lab.path_planner:main',
+        'console_scripts': [
+            'path_planner = mobile_manipulator_lab.path_planner:main',
 
         ],
     },
